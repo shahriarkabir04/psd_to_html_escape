@@ -1,0 +1,186 @@
+@font-face{
+	src:url(../fonts/Brandon_bld.otf);
+	font-family: Brandon_bld;
+}
+@font-face{
+	src:url(../fonts/Brandon_blk.otf);
+	font-family: Brandon_blk;
+}
+@font-face{
+	src:url(../fonts/Brandon_reg.otf);
+	font-family: Brandon_reg;
+}
+@font-face{
+	src:url(../fonts/Brandon_med.otf);
+	font-family: Brandon_med;
+}
+@font-face{
+	src:url(../fonts/Cubano.ttf);
+	font-family: Cubano;
+}
+@font-face{
+	src:url(../fonts/BrandonGrotesque-Light.ttf);
+	font-family: BrandonGrotesque-Light;
+}
+body{
+	padding:0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+/*Header Start*/
+#head{
+	background-image: url(../images/banner.jpg); 
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	/*	background-position: center;*/
+}
+header{
+	padding-bottom: 130px;
+}
+.container{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+	/*border:1px solid white;*/
+}
+.header_left{
+	margin-top: 40px;
+	width: 20%;
+	float: left;
+}
+.logo{
+	width: 50%;
+}
+.logo img{
+	float: left;
+}
+	/*Menu Start*/
+.header_right{
+	width: 47%;
+	float: right;
+}
+.menu{
+	margin-top: 20px;
+	float: left;
+}
+.menu ul{
+	padding-left: 76px;
+    margin-right: 0;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding-right: 30px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+	/*Menu End*/
+	/*Banner Text Start*/
+.b_text{
+	margin-top: 200px;
+	text-align: center;
+}
+.b_text p{
+	font-family: BrandonGrotesque-Light;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0;
+}
+.b_text h1{
+	font-family: Brandon_bld;
+    font-size: 66px;
+    color: white;
+    margin-top: 5px;
+}
+.b_text button{
+	font-family: Brandon_bld;
+	font-size: 23px;
+	padding: 10px 60px;
+	margin-top: 10px;
+	transition: 0.5s;
+	background-color: transparent;
+	color: white;
+}
+.b_text button:hover{
+	color: black;
+	background-color: white;
+}
+/*Banner Text End*/
+/*Header End*/
+/*Web Developmetn Start*/
+.w_development{
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.web_text{
+	width: 63%;
+	float: left;
+}
+.web_text h1{
+	font-family:BrandonGrotesque-Light;
+	font-weight: 300;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.web_text span{
+	font-family: Brandon_blk;
+	font-size: 60px;
+	padding-left: 5px;
+}
+.web_text p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	color: #666666;
+}
+.tree_icon{
+	float: right;
+	width: 30%;
+	margin-top: 110px;
+}
+.bg_color{
+	background-color: #FAFAFA;
+}
+.i-branding{
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.i_web_text{
+	width: 63%;
+	float: right;
+}
+.i_web_text h1{
+	font-family:BrandonGrotesque-Light;
+	font-weight: 300;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.i_web_text span{
+	font-family: Brandon_blk;
+	font-size: 60px;
+	padding-left: 5px;
+}
+.i_web_text p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	color: #666666;
+}
+.user_icon{
+	float: left;
+	width: 30%;
+	margin-top: 110px;
+}
+/*Web Development End*/
